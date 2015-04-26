@@ -11,31 +11,34 @@ Project Structure
   ├── README.md
   ├── notes.txt
   ├── project
-      ├── app.py
-      ├── config.py
-      ├── models.py
-      ├── requirements.txt
-      ├── static
-      │   ├── css
-      │   │   ├── bootstrap-3.0.0.min.css
-      │   │   ├── base.css
-      │   └── js
-      │       ├── libs
-      │       │   ├── bootstrap-3.0.0.min.js
-      │       │   ├── jquery-1.10.2.min.js
-      │       └── base.js
-      └── templates
-          ├── errors
-          │   ├── 404.html
-          │   └── 500.html
-          ├── forms
-          │   ├── forgot.html
-          │   ├── login.html
-          │   └── register.html
-          ├── layouts
-          │   ├── form.html
-          │   └── main.html
-          └── pages
-              ├── placeholder.about.html
-              └── placeholder.home.html
+  │   ├── app
+  │   │   ├── __init__.py
+  │   │   ├── email.py
+  │   │   ├── main
+  │   │   │   ├── __init__.py
+  │   │   │   ├── errors.py
+  │   │   │   ├── forms.py
+  │   │   │   ├── views.py
+  │   │   ├── models.py
+  │   │   ├── static
+  │   │   │   ├── css
+  │   │   │   │   └── base.css
+  │   │   │   ├── img
+  │   │   │   ├── js
+  │   │   │   │   └── base.js
+  │   │   │   └── libs
+  │   │   │       ├── bootstrap
+  │   │   │       └── jquery
+  │   │   └── templates
+  │   │       ├── base_layout.html
+  │   │       ├── error
+  │   │       │   ├── 404.html
+  │   │       │   └── 500.html
+  │   │       └── main
+  │   │           └── index.html
+  ├── config.py
+  ├── instance
+  │   └── config.py
+  ├── manage.py
+  └── requirements.txt
   ```
