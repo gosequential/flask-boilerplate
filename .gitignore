@@ -1,5 +1,4 @@
 *.pyc
-instance/
 .DS_Store
 env
 venv
