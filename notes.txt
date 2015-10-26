@@ -1,6 +1,0 @@
-Version 1.0
-=======
-Future Plans:
-	1) LESS Integration
-	2) GRUNT & BOWER Inclusion
-
