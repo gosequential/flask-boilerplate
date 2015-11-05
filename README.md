@@ -1,6 +1,6 @@
 # flask-boilerplate
 
-A convenient framework to get up and running fast with Flask. Comes configured with **Flask-SQLAlchemy**, **Flask-WTF**, and **Bootstrap**.
+A convenient development framework to get up and running fast with Flask. Comes configured with **Flask-SQLAlchemy**, **Flask-WTF**, and **Bootstrap**.
 
 <hr>
 
